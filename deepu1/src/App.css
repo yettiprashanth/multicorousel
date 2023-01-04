@@ -1,0 +1,22 @@
+.card{
+    box-shadow: 1px 1px 6px 0 rgb(32 32 36/28%);
+    width:100%;
+    height: auto;
+    margin: 2px;
+}
+.card-img-top{
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+}
+/* .btn{
+    width:120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 10px;
+} */
+.card:hover{
+    translate:scale(1.5);
+}
